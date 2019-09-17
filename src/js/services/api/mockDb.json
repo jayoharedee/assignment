@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032542/ceremony/Appraisal_Card_Mockup_w4gtid.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "ART APPRAISAL CARD",
+      "type": "Graphic Design",
+      "client": "Gallery House, Fine Art Gallery"
+    },
+    {
+      "id": 1,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032543/ceremony/Mask_Group_3_or5wxq.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "ART APPRAISAL CARD",
+      "type": "Graphic Design",
+      "client": "Gallery House, Fine Art Gallery"
+    },
+    {
+      "id": 2,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032543/ceremony/GH_Web_Banners_Mockup_jbak7l.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "ART APPRAISAL CARD",
+      "type": "Graphic Design",
+      "client": "Gallery House, Fine Art Gallery"
+    },
+    {
+      "id": 3,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032545/ceremony/Rooftop_Black_Interior_Mockup_nhzxpb.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "ART APPRAISAL CARD",
+      "type": "Graphic Design",
+      "client": "Gallery House, Fine Art Gallery"
+    },
+    {
+      "id": 4,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032544/ceremony/aT_BB_Collection_Product_Shoot_Mockup_iczje5.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "FASHION PHOTOGRAPHY",
+      "type": "Photo Editing",
+      "client": "Annie Thompson, Fashion Brand"
+    },
+    {
+      "id": 5,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032544/ceremony/Simple_BB_Promo_Mock_Up_lzy7rc.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "FASHION PHOTOGRAPHY",
+      "type": "Photo Editing",
+      "client": "Annie Thompson, Fashion Brand"
+    },
+    {
+      "id": 6,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032545/ceremony/Group_607_otsuy3.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "GREETING CARD",
+      "type": "Graphic Design",
+      "client": "Annie Thompson, Fashion Brand"
+    },
+    {
+      "id": 7,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/c_scale,h_550,w_713/v1567032545/ceremony/Zencore_Website_Mockup_ioqnmc.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "SHOPIFY WEBSITE",
+      "type": "Photo Editing",
+      "client": "ZenCore, Fashion Brand"
+    },
+    {
+      "id": 8,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/v1567032544/ceremony/Bikewear_Mockup_nexpnq.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "PRINT DESIGN FOR BIKEWEAR",
+      "type": "Graphic Design",
+      "client": "Annie Thompson, Fashion Brand"
+    },
+    {
+      "id": 9,
+      "img": {
+        "src": "https://res.cloudinary.com/ceremony/image/upload/c_scale,h_550,w_713/v1567032545/ceremony/Zencore_Photoshoot_Mock_Up_iz9y7x.png",
+        "alt": "art appraisal card"
+      },
+      "heading": "FASHION PHOTOGRAPHY",
+      "type": "Photo Editing",
+      "client": "ZenCore, Fashion Brand"
+    }
+  ]
+}
