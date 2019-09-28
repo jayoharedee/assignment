@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import TopNav from './topnav'
 import Placeholder from './placeholder'
+import WhyMe from './whyme'
 
 const App = () => {
   return (
     <Router>
       <>
         <TopNav />
-        <Route path="/" exact component={Placeholder} />
+        <Route path="/" exact component={WhyMe} />
         <Route path="/projects" component={Placeholder} />
         <Route path="/about" component={Placeholder} />
         <Route path="/studys" component={Placeholder} />
