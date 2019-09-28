@@ -32,7 +32,6 @@
       }
     },
     "rules": {
-      "strict": ["error", "global"],
       "curly": "warn",
       "no-dupe-keys": "error",
       "consistent-return": "error",
