@@ -1,11 +1,7 @@
 import React from 'react'
-// import { BrowserRouter as Router } from 'react-router-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import TopNav from './topnav'
-// import Projects from './projects'
-// import Services from './company-services'
-// import About from './about'
 import Placeholder from './placeholder'
 
 const App = () => {
