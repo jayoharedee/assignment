@@ -11,7 +11,7 @@ function TopNav() {
     <nav>
       <ul className="menu">
         <li className="item">
-          <NavLink to="/about">WHY ME?</NavLink>
+          <NavLink to="/whyme">WHY ME?</NavLink>
         </li>
         <li className="item">
           <NavLink
