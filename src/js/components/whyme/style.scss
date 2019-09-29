@@ -31,12 +31,22 @@
 }
 
 @media all and (max-width: 480px) {
+  .why-me {
+    h1 {
+      font-size: 0.8rem;
+    }
+  }
   #icon-row {
     flex-direction: column;
   }
 }
 
 @media all and (max-width: 839px) {
+  .why-me {
+    h1 {
+      font-size: 1rem;
+    }
+  }
   #icon-row {
     // justify-content: column;
   }
