@@ -27,6 +27,44 @@
   display: flex;
   justify-content: space-evenly;
   color: blue;
+
+  &,
+  &:before,
+  &:after {
+    transition: all 0.3s;
+  }
+  
+  div {
+    padding: 1rem;
+    font-size: 3rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+
+    &:before,
+    &:after {
+      transform: rotate(0)
+    }
+
+    &:hover:after {
+      transform: rotate(180deg);
+    }
+
+    &:hover:after {
+      margin-top: -3px;
+      transform: rotate(360deg);
+      width: 30px;
+      margin-left: -16px;
+    }
+
+    &:hover:before {
+      margin-top: -3px;
+      transform: rotate(450deg);
+      box-shadow: none;
+      width: 30px;
+      margin-left: -16px;
+    }
+  }
 }
 
 @media all and (max-width: 480px) {
