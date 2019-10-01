@@ -1,9 +1,18 @@
 language: node_js
 
 node_js:
+<<<<<<< HEAD
 	- "10.9.0"
+=======
+  - "10.9.0"
+>>>>>>> 2759b06f01f20c42a45ac2e05e5fc7969e111d16
 
 cache: npm
 
 before_install:
+<<<<<<< HEAD
 	-ls -la
+=======
+  - ls -la
+  
+>>>>>>> 2759b06f01f20c42a45ac2e05e5fc7969e111d16
