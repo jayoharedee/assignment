@@ -1,7 +1,7 @@
 {
   "name": "comp3104",
   "version": "1.0.0",
-  "description": "",
+  "description": "> This repository contains the base project we will be using for our assignment.",
   "private": true,
   "scripts": {
     "format": "prettier \"src/**/*.{js,html}\" --write",
@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --mode development --open",
     "dev": "webpack --mode development --module-bind js=babel-loader",
     "build": "webpack --mode production --module-bind js=babel-loader",
-    "mock:api": "./node_modules/.bin/json-server --watch ./src/js/services/api/mockDb.json --port 4000 & npm run start"
+    "mock:api": "json-server --watch ./src/js/services/api/mockDb.json --port 4000 & npm run start"
   },
   "repository": {
     "type": "git",
@@ -66,5 +66,6 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-spring": "^8.0.27"
-  }
+  },
+  "main": "webpack.config.js"
 }
