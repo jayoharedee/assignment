@@ -23,10 +23,15 @@
   }
 }
 
+.bottom-border {
+  color: rgb(77, 77, 77);
+  width: 95vw;
+}
+
 #icon-row {
   display: flex;
   justify-content: space-evenly;
-  color: blue;
+  color: #fff;
 
   &,
   &:before,
@@ -34,10 +39,10 @@
     transition: all 0.3s;
   }
   
-  div {
+  .spinny-icon {
     padding: 1rem;
     font-size: 3rem;
-    border: 1px solid white;
+    background-color: rgb(78, 86, 133);
     border-radius: 1rem;
     cursor: pointer;
 
@@ -75,6 +80,18 @@
   }
   #icon-row {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    > div {
+      width: 5rem;
+    }
+
+    // .bottom-border {
+    //   color: rgb(77, 77, 77);
+    //   width: 95vw;
+    // }
   }
 }
 
