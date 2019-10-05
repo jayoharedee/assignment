@@ -8,3 +8,4 @@ cache: npm
 before_install:
   - ls -la
   
+  # continue lifecycle hooks here and expand on the system
