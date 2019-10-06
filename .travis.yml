@@ -1,11 +1,9 @@
 language: node_js
-
 node_js:
-  - "10.9.0"
-
+- 10.9.0
 cache: npm
-
 before_install:
-  - ls -la
-  
-  # continue lifecycle hooks here and expand on the system
+- ls -la
+notifications:
+  slack:
+    secure: uBLSOXPVVuqpkPk1oX53MeJ/SPpObmCHhPQEsnm4UpdbIIM6xcI8tlFeitzG5ne77kEA75cWLrOr7YBAo9xIbHX0m5+1xx781HczfFs99iqgoGCdOpDiDXrId3nROTQgfhMmugq08M/UMMhJ+nMIETJkEvIxOqrjQopYAgct6Phl6Q58wuvg6BG6Sj1kONEDC3yqoMps7MmaDcKYjFnmeVZ4mub7tH1Qz6DDoRQKfR+LjGaVdnQIKMqRpmMSk0j/CfxXM0yexKWoA2HrJeUv6THlap0S8QdrwmtMrEmr/j2A/VLWYHeN542ZdSIXc0J351v1nMFl4m+goGZLikvcqr+UfH8GqTsKBi8D0hzBNdmxn/biqgaggSVH0HcIQ+6hIVQhurBiyQ6mRyH7bL/74zm4cxbbxTKK5tv2w6F2olqbhV5Ku1WNeNNj5lC/HimFYHjjD0alJ0PBnOZD1bBZyGBysVI/aZTr4fwhQJLz7+Y4YkaO2IxSaExpizWIGzHWQKeq9jmbChxV0qPJywTg/wCmqjm7B03o0t9Trdc/5RBKAy+Myy9/0RAHF3VkOdDcjvaMRhhbdVUwDvzTyOATxf88dTB7v+oRczAE0ZmtylvvlyJq5ODoA9gTtM27o+XsFFNpGNVDdCE1X7ik8dv09kkDAyp7iWf4Pu7wuNDfyWs=
