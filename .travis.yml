@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-- 10.9.0
+  - 10.9.0
 cache: npm
 before_install:
-- ls -la
+  - ls -la
 notifications:
   slack:
     secure: AJI0PsrVMRd0LdBIOmuoQMdOU2ueBX2xK2aSKLkGpd+DBOZN4mPXbvbqankpxWqVfunFWW+PFOHu8jerv9F8THE/vKARwfAKU6RpqYNHX12+9SPz0U1VWTtlGsURura9LdqU/t2tp9Hz/ZN32xwAV07jUD+C4rv2Zdv7GEOIlOWglkhhcyetzlmeCeU/hrIP35EpTILet+tSL+JtkqvO6XP3UA6Ts3De3XfXNcc9dGve2oPkkfdFHAnNxCDskByiRPrMTdnHdifWGEJCjL+IPzKu1xDvThp3zt8E1bcWrWhp+wjr1U9Vmm+4DlTuXhdI8yhZuy3ZGP+/9i3VzV337eDGf8NUXPn9ukKOYlxy0vtvoRUvi6Z+O5Z8iFe0mdto34TtY0cAXgrBd9PK/ng1s/mABLErOi95KRDyWfpk0tMueJDFlIkI3wIpUp5FHIt+/SfVQIBlfsm9I9hJ+jtNdxUrD8qLM8eSZV3fhjG2KJMNrGB+9kfz2/DkV2c52otdlHjZeHau3Ef74j7EWLvaTkaAWkikRzjef1AYz6mRE7hG8HqVpkfd1ARzKVRaYOGQ/R59vu49YVMKJVKLPsEl+V+Mz8Tzzev0E+bvHoo8WKwPhCkJu835Crsl0RIqNYB7dB50SOJUKVFh5UO0A/uQxt9EDiWvaTBYEbCLZxxUQt4=
