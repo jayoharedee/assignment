@@ -1,8 +1,12 @@
 language: node_js
 node_js:
   - 10.9.0
+
 cache: npm
+
 before_install:
   - ls -la
+
 notifications:
-  slack: gbcdevopssquad:hdJu4PLC3jqkua19mGvWycMB
+  slack:
+    secure: kirB/EbrcVlPbL4FqFKQFe0TpZYqkyUERsNouRx5BY8hl4wlal2OvAQLx3j3x1USMzXUOPiuKdU0N/rnIOnqPxoX54UuGk6Gepzf05GrjN+vqwGNJ+AcTiYrv31HUxEA/V4NozIbdFuPMTIzh8xbORkGqoRDrEkqi5kiyD2SQWKVILDr2j7ZV6QPAQUasQoYlll1RDBKPL3ROVxCo2bQUkDoOzQW2sVIT7SPwh69Pp5+bgVvoO0S47WjqsNNYXal8tRkYqA2LxJFq+gyX7XCVFMuU78wIbQ4mntZR1f45sW/f0bnNWHHPurpbmXGYLNwHvJoJfBJJPGStobG2doDjGXu4z8NaTm3mrsP4m/g3HWU9FEBl/2N2UQlot4QyjOxg3cZBJ5c1JKO66QjKL69hqbBr4WQog74AIrUoCqIDUz6ag036Mv61vFgJHp+o6pDgz/Oa4uc6vhm53k7zdUWkxHZ6FpWCl2vbbWHih+K9F00A6KjPFmu/COPx21v4UA80F+Vbi1QqRDvnvSLHfbkPDeI1BiPNMccffH1DBciV8R/a8H4ui67RZ0W6SLTxJYkVBu2pS691MlAdhUCbITntaBNyNoerg3qLr6soswhyiuZ6eO0DSJ0FokLc3Pcg3BU5xZerKQ+AnvzTKIVjuxfqUYEfgMXa8+NpORMfYo/CdY=
