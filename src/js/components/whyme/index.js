@@ -4,6 +4,11 @@ import SpinnyIcon from '../spinnyicon'
 import HeaderBlock from '../headerblock'
 
 import './style.scss'
+import {
+  uiContent, 
+  fedContent, 
+  vrContent 
+} from './content'
 
 function WhyMe() {
 
@@ -14,15 +19,15 @@ function WhyMe() {
       <aside id="philosophy-row">
         <article className="philosophy">
           <SpinnyIcon icon={'fa fa-laptop'} />
-          <HeaderBlock />
+          <HeaderBlock title="UI/UX" content={uiContent} />
         </article>
         <article className="philosophy">
           <SpinnyIcon icon={'fa fa-laptop'} />
-          <HeaderBlock />
+          <HeaderBlock title="BACK END DEV" content={fedContent} />
         </article>
         <article className="philosophy">
           <SpinnyIcon icon={'fa fa-laptop'} />
-          <HeaderBlock />
+          <HeaderBlock title="VR/AR/MR" content={vrContent} />
         </article>
       </aside>
     </div>
