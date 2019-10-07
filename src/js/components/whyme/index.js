@@ -16,6 +16,9 @@ function WhyMe() {
     <div className="why-me">
       <h1>MY PHILOSOPHY</h1>
       <p>A few thoughts on my respective subject matter expertise</p>
+      {
+        // to be composed a little more elegantly
+      }
       <aside id="philosophy-row">
         <article className="philosophy">
           <SpinnyIcon icon={'fa fa-laptop'} />
