@@ -6,6 +6,7 @@ cache: npm
 
 before_install:
   - ls -la
+  - pwd
 
 notifications:
   slack:
