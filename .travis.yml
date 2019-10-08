@@ -7,8 +7,9 @@ cache: npm
 before_install:
   - ls -la
   - npm install
+  - mkdir public
   - pwd
-  - echo "Something"
+  - ls -la
 
 notifications:
   slack:
