@@ -8,15 +8,6 @@ before_install:
   - ls -la
   - npm install
   - pwd
-  
-install:
-  - ls -la
-  - pwd
-
-before_deploy:
-  - ls -la
-  - cd node_modules
-  - ls -la
 
 notifications:
   slack:
