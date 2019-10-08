@@ -14,5 +14,5 @@ before_install:
 
 install:
   - ls -la
-  - sudo npm install
+  - npm install
   - ls -la
