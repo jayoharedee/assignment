@@ -9,15 +9,9 @@ cache: npm
 before_install:
   - ls -la
   - mkdir dist
-  - cd dist
   - ls -la
 
 install:
   - ls -la
   - npm install
   - ls -la
-
-after_install:
-  # send an email after install completes
-  - echo "Sucessfully installed." | mailx -s "TRAVIS YML INSTALL" francis.victa@georgebrown.ca
-
