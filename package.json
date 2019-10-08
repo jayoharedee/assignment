@@ -6,7 +6,7 @@
   "scripts": {
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "test": "exit 0",
+    "test": "npm run format && npm run lint",
     "start": "webpack-dev-server --mode development --open",
     "dev": "webpack --mode development --module-bind js=babel-loader",
     "build": "webpack --mode production --module-bind js=babel-loader",

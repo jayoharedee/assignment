@@ -15,4 +15,3 @@ install:
   - ls -la
   - npm install
   - ls -la
-  - cd ../node_modules
