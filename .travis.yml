@@ -8,6 +8,7 @@ before_install:
   - ls -la
   - npm install
   - pwd
+  - echo "Something"
 
 notifications:
   slack:
