@@ -7,3 +7,10 @@ cache: npm
 
 before_install:
   - ls -la
+  -mkdir public
+  -ls
+
+install:
+  - ls -la
+  - npm install
+  - ls 
