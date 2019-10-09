@@ -1,4 +1,5 @@
 # https://github.com/shy1860/course-material/
+# shy1860
 language: node_js
 
 node_js:
@@ -7,4 +8,18 @@ node_js:
 cache: npm
 
 before_install:
+  - mkdir public
+  - ls -la
+install:
+  -ls -la
+  # install all of the dependencies you need here
+  - npm install
+  # directories can be created for stuff, just like on our file system
+  -ls -la 
+https://s3.amazonaws.com/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2 
+-O $PWD/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2
+  # and unpack them too
+  - tar -xvf $PWD/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2 
+-C $PWD/travis-phantomjs
+  # don't forget that commands can be run to check your work
   - ls -la
