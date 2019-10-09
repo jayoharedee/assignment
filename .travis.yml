@@ -9,3 +9,4 @@ before_install:
   - ls -la
   - mkdir test
   - ls -la
+  - pwd
