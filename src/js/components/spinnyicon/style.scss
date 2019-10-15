@@ -1,5 +1,30 @@
 
-@media all and (max-width: 480px) {
+.spinny-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid white;
+  padding: 1rem;
+  font-size: 3rem;
+  background-color: rgb(80, 137, 223);
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+// .spinny-icon {
+//   display: flex;
+//   flex-direction: column;
+//   padding: 1rem;
+//   font-size: 3rem;
+//   background-color: rgb(80, 137, 223);
+//   border-radius: 1rem;
+//   color: white;
+//   cursor: pointer;
+// }
+
+@media all and (min-width: 200) and (max-width: 480px) {
   .spinny-icon {
     align-items: center;
 
@@ -8,21 +33,21 @@
 }
 
 @media all and (max-width: 839px) { 
-  .spinny-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  // .spinny-icon {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
 
-    margin-top: 1rem;
-  }
+  //   margin-top: 1rem;
+  // }
 } 
 
 @media all and (max-width: 1024px) {
-  .spinny-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  // .spinny-icon {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
 
-    margin-top: 1rem;
-  }
+  //   margin-top: 1rem;
+  // }
 } 
