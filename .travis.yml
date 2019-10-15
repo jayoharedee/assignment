@@ -4,11 +4,11 @@ node_js:
 
 cache: npm
 
-before_install:
-  - ls -la
+install:
   - npm install
-  - mkdir public
-  - ls -la
+
+script:
+  - npm run build
 
 notifications:
   slack:
