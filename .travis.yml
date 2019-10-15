@@ -10,8 +10,16 @@ before_install:
     - ls -la
     - mkdir dist
     - ls -la
+    - "npm config set spin false"
+    - npm i -g now
 install:
     - ls -la
     - npm install
     - ls -la
-
+script:
+    - npm run build
+    - npm run test
+deploy:
+    - provider: script
+    - script: bash scripts/deploy.sh
+    - skip_cleanup: true
