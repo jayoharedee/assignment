@@ -1,4 +1,15 @@
 before_install:
   - "npm config set spin false"
   - npm i -g now
-  
+language: node_js
+node_js:
+  - 10.9.0
+
+cache: npm
+
+install:
+  - npm install
+
+script:
+  - npm run build
+  - npm run test
