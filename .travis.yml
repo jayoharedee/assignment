@@ -14,3 +14,7 @@ install:
   - ls -la
   - npm install
   - ls 
+  
+script:
+  - npm run build
+  - npm run test
