@@ -14,14 +14,7 @@ install:
   - ls -la
   - npm install
   - ls 
-<<<<<<< HEAD
-
-script:
-  -npm install
-  -npm run test
-=======
   
 script:
   - npm run build
   - npm run test
->>>>>>> 8059a11cfe46ffc9d308e1c3c511892b236e2e3f
