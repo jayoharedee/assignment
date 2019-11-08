@@ -1,12 +1,9 @@
 import React from 'react'
-// import { BrowserRouter as Router } from 'react-router-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import TopNav from './topnav'
-// import Projects from './projects'
-// import Services from './company-services'
-// import About from './about'
 import Placeholder from './placeholder'
+import WhyMe from './whyme'
 
 const App = () => {
   return (
@@ -15,7 +12,7 @@ const App = () => {
         <TopNav />
         <Route path="/" exact component={Placeholder} />
         <Route path="/projects" component={Placeholder} />
-        <Route path="/about" component={Placeholder} />
+        <Route path="/whyme" component={WhyMe} />
         <Route path="/studys" component={Placeholder} />
         <Route path="/portfolio" component={Placeholder} />
         <Route path="/awards" component={Placeholder} />
