@@ -1,5 +1,4 @@
 import React from 'react'
-//import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 
@@ -7,19 +6,12 @@ import './style.scss'
 import FontAwesome from '../fontawesome'
 
 function TopNav() {
-    // const [visible, setVisible] = useState(true);
-
-  function showMe() {
-      // console.log(visible)
-      // setVisibile(false)
-      // console.log(visible)
-  }
-
+    
   return (
     <nav>
       <ul className="menu">
         <li className="item">
-          <NavLink to="/about">WHY ME?</NavLink>
+          <NavLink to="/whyme">WHY ME?</NavLink>
         </li>
         <li className="item">
           <NavLink
@@ -47,7 +39,7 @@ function TopNav() {
           <NavLink to="/contact">CONTACT</NavLink>
         </li>
         <li className={`toggle`}>
-          <NavLink to="/awards" onClick={showMe}>
+          <NavLink to="/awards">
             <FontAwesome iconNames="fas fa-bars" />
           </NavLink>
         </li>
