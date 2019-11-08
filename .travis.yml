@@ -1,0 +1,26 @@
+#git@github.com:RajatBareja30/course-material.git
+language: node_js
+
+node_js:
+  - "10.9.0"
+
+cache: npm
+
+env:
+  - NOW_TOKEN=sWwOgaNaBONWWk58gpnrfcf4
+
+before_install:
+  - "npm config set spin false"
+  - npm i -g now
+
+install:
+  - npm install
+
+script:
+  - npm run build
+  - npm run test
+
+deploy:
+  provider: script
+  script: "scripts/deploy.sh"  
+  skip_cleanup: true
