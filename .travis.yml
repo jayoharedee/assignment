@@ -1,4 +1,4 @@
-# apatel
+# apatel98
 # 101162370 
 
 language: node_js
@@ -9,10 +9,8 @@ node_js:
 cache: npm
 
 before_install:
-  - ls -la
-  - mkdir test
-  - ls -la
-  - pwd
+  - "npm config set spin false"
+  - npm i -g now
 
 install:
   - ls -la
@@ -22,3 +20,12 @@ install:
 
 after_install:
   - echo "Successfully Installed..."
+
+script:
+  - npm run build
+  - npm run test
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  skip_cleanup: true
