@@ -13,13 +13,8 @@ before_install:
   - npm i -g now
 
 install:
-  - ls -la
-  - pwd
   - npm install
-  - ls -la
 
-after_install:
-  - echo "Successfully Installed..."
 
 script:
   - npm run build
