@@ -23,10 +23,10 @@ script:
 
 deploy:
   provider: script
-  script: "scripts/deploy.sh"  
+  script: bash scripts/deploy.sh 
   skip_cleanup: true
   on:
-  all_branches: true
+    all_branches: true
 
   
 
