@@ -1,4 +1,5 @@
-#git@github.com:RajatBareja30/assignment.git
+#git@github.com:RajatBareja30/course-material.git
+
 language: node_js
 
 node_js:
@@ -21,4 +22,3 @@ deploy:
   provider: script
   script: bash scripts/deploy.sh 
   skip_cleanup: true
-
