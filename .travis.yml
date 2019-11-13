@@ -25,4 +25,9 @@ deploy:
   provider: script
   script: "scripts/deploy.sh"  
   skip_cleanup: true
+   # Test reports
+  provider: script
+  script: npm run test:deploy-results
+  on:
+    branch: build
 
