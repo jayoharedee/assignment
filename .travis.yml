@@ -7,9 +7,6 @@ node_js:
 
 cache: npm
 
-env:
-  - NOW_TOKEN=nklp0EQ0KDQms04SrKbQqPo4
-
 before_install:
   - "npm config set spin false"
   - npm i -g now
@@ -23,5 +20,5 @@ script:
 
 deploy:
   provider: script
-  script: "scripts/deploy.sh"  
+  script: bash scripts/deploy.sh  
   skip_cleanup: true
