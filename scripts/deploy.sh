@@ -1,3 +1,4 @@
-#!/bin/bash
 
-echo "This file will be responsible for the deploy."
+#!bin/bash
+
+now public --token=$NOW_TOKEN
